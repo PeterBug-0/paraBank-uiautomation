@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParaBank ui-automation suite">
+    <parameter name="browser" value="chrome"/>
+    <!-- Test groups for better organization -->
+    <test name="Tests on browser - Chrome">
+        <classes>
+            <class name="com.automation.tests.RegisterTest">
+<!--                <methods>-->
+<!--                    <exclude name="testSuccessfulRegister"/>-->
+<!--                </methods>-->
+            </class>
+            <class name="com.automation.tests.LoginTest">
+<!--                <methods>-->
+<!--                    <include name="testSuccessfulLogin"/>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
